@@ -1,0 +1,7 @@
+CD_CVM;DENOM_CIA;DT_REFER;DT_RECEB;VERSAO;ORDEM_EXERC;CD_CONTA;DS_CONTA;VL_CONTA
+1;Teste SA;2025-12-31;2026-03-01;1;ÚLTIMO;1;Lucro líquido do período;100
+1;Teste SA;2025-12-31;2026-03-01;1;ÚLTIMO;2;Patrimônio líquido atribuível aos acionistas da companhia controladora;500
+1;Teste SA;2025-12-31;2026-03-01;1;ÚLTIMO;3;Caixa e equivalentes de caixa;80
+1;Teste SA;2025-12-31;2026-03-01;1;ÚLTIMO;4;Empréstimos e financiamentos - circulante;100
+1;Teste SA;2025-12-31;2026-03-01;1;ÚLTIMO;5;Empréstimos e financiamentos - não circulante;80
+1;Teste SA;2025-12-31;2026-03-01;1;ÚLTIMO;6;EBITDA;200
