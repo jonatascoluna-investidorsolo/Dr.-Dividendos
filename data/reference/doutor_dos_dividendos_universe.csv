@@ -1,0 +1,94 @@
+excel_row,company_name,ticker,likely_bdr,sector
+8,Stone,STOC34,True,Serviços Financeiros
+9,Banco Mercantil,BMEB3,False,Bancos
+10,Irani,RANI3,False,Papel e Celulose
+11,Tim,TIMS3,False,Telecomunicações
+12,Suzano,SUZB3,False,Papel e Celulose
+13,Vulcabras,VULC3,False,Calçados
+14,Klabin,KLBN11,False,Papel e Celulose
+15,Klabin,KLBN4,False,Papel e Celulose
+16,Ferbasa,FESA4,False,Siderurgia e Metalurgia
+17,Klabin,KLBN3,False,Papel e Celulose
+18,Grendene,GRND3,False,Calçados
+19,Pagbank,PAGS34,True,Serviços Financeiros
+20,Banco Santander,SANB4,False,Bancos
+21,IRB,IRBR3,False,Seguros
+22,Banco Banrisul,BRSR6,False,Bancos
+23,Banco Bradesco,BBDC3,False,Bancos
+24,Banco Santander,SANB11,False,Bancos
+25,Banco Mercantil,BMEB4,False,Bancos
+26,Brasilagro,AGRO3,False,Agronegócio
+27,Mahle Metal Leve,LEVE3,False,Automóveis e Motocicletas
+28,Porto Seguro,PSSA3,False,Seguros
+29,Banco do Brasil,BBAS3,False,Bancos
+30,BB Seguridade,BBSE3,False,Seguros
+31,Banco Santander,SANB3,False,Bancos
+32,Wiz,WIZC3,False,Seguros
+33,Banco Bradesco,BBDC4,False,Bancos
+34,Banco ABC Brasil,ABCB4,False,Bancos
+35,Bradsaúde,SAUD3,False,Saúde
+36,Multiplan,MULT3,False,Shoppings
+37,Allos,ALOS3,False,Shoppings
+38,Romi,ROMI3,False,Industrial
+39,Caixa Seguridade,CXSE3,False,Seguros
+40,CSN Mineração,CMIN3,False,Mineração
+41,Banco da Amazônia,BAZA3,False,Bancos
+42,CSU,CSUD3,False,Tecnologia
+43,Emae,EMAE4,False,Energia
+44,Itausa,ITSA4,False,Holding
+45,Lojas Renner,LREN3,False,Varejo
+46,Grazziotin,CGRA4,False,Varejo
+47,Marcopolo,POMO3,False,Industrial
+48,Banco BMG,BMGB4,False,Bancos
+49,Banco Itau,ITUB4,False,Bancos
+50,Log,LOGG3,False,Exploração de imóveis
+51,Banco Itau,ITUB3,False,Bancos
+52,SLC Agrícola,SLCE3,False,Agronegócio
+53,Comgás,CGAS5,False,"Oléo, gás e biocomb."
+54,Dexxos,DEXP3,False,Industrial
+55,Tegma,TGMA3,False,Logistica
+56,Banco Pine,PINE4,False,Bancos
+57,Marcopolo,POMO4,False,Industrial
+58,BTG,BPAC11,False,Bancos
+59,Compass,PASS3,False,"Oléo, gás e biocomb."
+60,CPFL Energia,CPFE3,False,Energia
+61,Sanepar,SAPR4,False,Saneamento
+62,Sabesp,SBSP3,False,Saneamento
+63,Vale,VALE3,False,Mineração
+64,Bradespar,BRAP3,False,Holding
+65,Kepler Weber,KEPL3,False,Agronegócio
+66,B3,B3SA3,False,Serviços Financeiros
+67,Sanepar,SAPR11,False,Saneamento
+68,CEB,CEBR5,False,Energia
+69,Petroreconcâvo,RECV3,False,"Oléo, gás e biocomb."
+70,Taesa,TAEE3,False,Energia
+71,Celesc,CLSC4,False,Energia
+72,Bradespar,BRAP4,False,Holding
+73,Copel,CPLE3,False,Energia
+74,Axia Energia,AXIA3,False,Energia
+75,Cemig,CMIG4,False,Energia
+76,Shulz,SHUL4,False,Bens Industriais
+77,Taesa,TAEE11,False,Energia
+78,Taesa,TAEE4,False,Energia
+79,BR Partners,BRBI11,False,Serviços Financeiros
+80,Unipar,UNIP6,False,Químicos
+81,Banestes,BEES3,False,Bancos
+82,CEB,CEBR6,False,Energia
+83,Metalúrgica Gerdau,GOAU3,False,Siderurgia e Metalurgia
+84,Petrobras,PETR4,False,"Oléo, gás e biocomb."
+85,CEB,CEBR3,False,Energia
+86,Gerdau,GGBR3,False,Siderurgia e Metalurgia
+87,MDias Branco,MDIA3,False,Alimentos
+88,Alupar,ALUP11,False,Energia
+89,Unifique,FIQE3,False,Telecomunicações
+90,Electro Aço Altona,EALT4,False,Industrial
+91,Fleury,FLRY3,False,Saúde
+92,Sanepar,SAPR3,False,Saneamento
+93,Telefonica Vivo,VIVT3,False,Telecomunicações
+94,ISA Energia,ISAE4,False,Energia
+95,Energisa,ENGI4,False,Energia
+96,Copasa,CSMG3,False,Saneamento
+97,Vibra Energia,VBBR3,False,"Oléo, gás e biocomb."
+98,JHSF,JHSF3,False,Imobiliário
+99,Engie Brasil,EGIE3,False,Energia
+100,Ambev,ABEV3,False,Bebidas

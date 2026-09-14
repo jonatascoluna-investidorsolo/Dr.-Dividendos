@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Doutor dos Dividendos — Empresa</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#172033;--muted:#687386;--line:#e6eaf0;--accent:#174ea6;--good:#16835b;--warn:#b7791f;--bad:#b42318;--shadow:0 8px 28px rgba(20,35,60,.07)}
+*{box-sizing:border-box}body{margin:0;font:15px Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}
+header{background:#fff;border-bottom:1px solid var(--line);padding:16px 28px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:5}.brand{font-weight:800;font-size:18px}.brand span{color:var(--accent)}.back{color:var(--accent);text-decoration:none;font-weight:650}
+main{max-width:1180px;margin:28px auto;padding:0 20px}.hero{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;margin-bottom:22px}.eyebrow{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:750}.title{font-size:32px;margin:5px 0}.subtitle{color:var(--muted)}.badge{display:inline-flex;padding:7px 10px;border-radius:999px;background:#eaf7f1;color:var(--good);font-weight:750;font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:var(--shadow)}.label{font-size:12px;color:var(--muted)}.value{font-size:24px;font-weight:800;margin-top:6px}.small{font-size:12px;color:var(--muted);margin-top:5px}
+.section{margin-top:18px}.section h2{font-size:18px;margin:0 0 12px}.two{display:grid;grid-template-columns:1.4fr .8fr;gap:16px}.chart{height:260px;position:relative}.bars{height:210px;display:flex;align-items:flex-end;gap:10px;border-bottom:1px solid var(--line);padding:0 8px}.bar{flex:1;background:#9bb7e5;border-radius:7px 7px 0 0;min-width:16px;position:relative}.bar i{position:absolute;bottom:-22px;left:50%;transform:translateX(-50%);font-style:normal;font-size:10px;color:var(--muted)}
+.methods{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.method{border:1px solid var(--line);border-radius:12px;padding:14px}.method b{display:block;font-size:12px;color:var(--muted)}.method strong{font-size:20px;display:block;margin:5px 0}.up{color:var(--good);font-weight:750}.review{color:var(--warn);font-weight:700}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--line);font-size:13px}th{color:var(--muted);font-weight:650}.source{display:flex;justify-content:space-between;gap:15px;padding:12px 0;border-bottom:1px solid var(--line)}.source:last-child{border-bottom:0}.source small{color:var(--muted)}
+.note{padding:13px 15px;background:#fff9e8;border:1px solid #f0dfaa;border-radius:10px;color:#6f5518;font-size:13px}.footer{margin:24px 0 40px;color:var(--muted);font-size:12px}.pill{padding:4px 8px;border-radius:999px;background:#eef2f7;font-size:11px}.quality{display:flex;align-items:center;gap:10px}.dot{width:9px;height:9px;border-radius:50%;background:var(--good)}
+@media(max-width:850px){.grid,.methods{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}.hero{flex-direction:column}}@media(max-width:520px){.grid,.methods{grid-template-columns:1fr}.title{font-size:26px}header{padding:14px 16px}main{padding:0 14px}}
+</style></head>
+<body>
+<header><div class="brand">Doutor dos <span>Dividendos</span></div><a class="back" href="index.html">← Voltar ao painel</a></header>
+<main>
+<section class="hero"><div><div class="eyebrow">Página individual da empresa</div><h1 class="title" id="company">ITUB4 — Itaú Unibanco</h1><div class="subtitle" id="sector">Bancos • Dados demonstrativos</div></div><div class="quality"><span class="dot"></span><span class="badge">Dados prontos para análise</span></div></section>
+<div class="note">Protótipo funcional. Os números abaixo são <b>dados demonstrativos</b>; na versão conectada, cada indicador será alimentado pelo motor e terá data, período, fonte e status de validação.</div>
+<section class="section grid">
+<div class="card"><div class="label">Cotação</div><div class="value" id="price">—</div><div class="small">Fechamento EOD</div></div>
+<div class="card"><div class="label">DY projetado</div><div class="value" id="dy">—</div><div class="small">DPA / cotação</div></div>
+<div class="card"><div class="label">P/L atual</div><div class="value" id="pe">—</div><div class="small">LPA ajustado</div></div>
+<div class="card"><div class="label">Score qualidade</div><div class="value" id="score">—</div><div class="small">Selo VERDE</div></div>
+</section>
+<section class="section methods">
+<div class="method"><b>GRAHAM</b><strong>R$ 46,10</strong><span class="up">+20,0% upside</span></div>
+<div class="method"><b>BAZIN</b><strong>R$ 45,00</strong><span class="up">+17,1% margem</span></div>
+<div class="method"><b>GORDON</b><strong>R$ 51,80</strong><span class="up">+34,8% upside</span></div>
+<div class="method"><b>PREÇO TETO</b><strong>R$ 49,60</strong><span class="up">+29,1% upside</span></div>
+</section>
+<section class="section two">
+<div class="card"><h2>Histórico de lucro por ação</h2><div class="chart"><div class="bars" id="bars"></div></div></div>
+<div class="card"><h2>Indicadores fundamentais</h2><table><tr><th>Indicador</th><th>Valor</th></tr><tr><td>LPA</td><td id="lpa">—</td></tr><tr><td>VPA</td><td id="vpa">—</td></tr><tr><td>P/VP</td><td>—</td></tr><tr><td>Payout</td><td id="payout">—</td></tr><tr><td>CAGR lucro 5a</td><td id="cagr">—</td></tr><tr><td>Dívida/EBITDA</td><td><span class="pill">N/A — financeiro</span></td></tr></table></div>
+</section>
+<section class="section two">
+<div class="card"><h2>Dividendos</h2><table><tr><th>Ano</th><th>DPA</th><th>DY de referência</th></tr><tbody id="divrows"></tbody></table></div>
+<div class="card"><h2>Fontes e rastreabilidade</h2><div class="source"><div><b>Demonstrações</b><br><small>CVM DFP / ITR</small></div><span class="pill">validar</span></div><div class="source"><div><b>Eventos</b><br><small>B3 / proventos</small></div><span class="pill">validar</span></div><div class="source"><div><b>Cotação</b><br><small>Fechamento EOD</small></div><span class="pill">EOD</span></div><div class="source"><div><b>Última coleta</b><br><small>Motor de dados</small></div><span class="pill">demo</span></div></div>
+</section>
+<section class="section card"><h2>Como o motor chegou ao resultado</h2><p id="methodNote" class="small"></p><table><tr><th>Etapa</th><th>Regra</th><th>Status</th></tr><tr><td>Identidade</td><td>Ticker → emissor → código CVM</td><td>OK</td></tr><tr><td>Contabilidade</td><td>LPA, VPA e lucro atribuível</td><td>OK</td></tr><tr><td>Dividendos</td><td>DPA ajustado por eventos societários</td><td>OK</td></tr><tr><td>Valuation</td><td>Graham, Bazin, Gordon e projetivo</td><td>OK</td></tr><tr><td>Qualidade</td><td>Fonte + período + atualização + validação</td><td>OK</td></tr></table></section>
+<div class="footer">Informação educacional e analítica. Não constitui recomendação individual de investimento. A versão de produção exibirá os valores reais e a rastreabilidade de cada dado.</div>
+</main><script src="empresa.js"></script></body></html>
