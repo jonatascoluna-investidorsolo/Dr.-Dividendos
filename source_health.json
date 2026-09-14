@@ -1,0 +1,38 @@
+{
+  "CVM_DFP": {
+    "reachable": false,
+    "detail": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "checked_at": "2026-09-12T02:02:09.875662+00:00",
+    "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/DADOS/dfp_cia_aberta_2026.zip"
+  },
+  "CVM_ITR": {
+    "reachable": false,
+    "detail": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "checked_at": "2026-09-12T02:02:09.875662+00:00",
+    "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/ITR/DADOS/itr_cia_aberta_2026.zip"
+  },
+  "CVM_CADASTRO": {
+    "reachable": false,
+    "detail": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "checked_at": "2026-09-12T02:02:09.875662+00:00",
+    "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/CAD/DADOS/cad_cia_aberta.csv"
+  },
+  "CVM_FCA": {
+    "reachable": false,
+    "detail": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "checked_at": "2026-09-12T02:02:09.875662+00:00",
+    "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/FCA/DADOS/fca_cia_aberta_2026.zip"
+  },
+  "B3_UP2DATA": {
+    "reachable": false,
+    "detail": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "checked_at": "2026-09-12T02:02:09.875662+00:00",
+    "url": "https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/up2data/dados-disponiveis/"
+  },
+  "YAHOO": {
+    "reachable": false,
+    "detail": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "checked_at": "2026-09-12T02:02:09.875662+00:00",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/PETR4.SA"
+  }
+}
